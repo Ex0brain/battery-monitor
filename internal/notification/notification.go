@@ -11,7 +11,7 @@ import (
 func Notify(message monitor.Message) {
 	title := fmt.Sprintf("Battery is %s", message.State)
 	body := fmt.Sprintf("Current charge level: %d%%", message.Charge)
-	icon := fmt.Sprintf("assets/%s.png", message.Notification)
+	icon := fmt.Sprintf("/etc/battery-monitor/assets/%s.png", message.Notification)
 
 	err := beeep.Notify(title, body, icon)
 	if err != nil {

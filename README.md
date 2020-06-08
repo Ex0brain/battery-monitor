@@ -11,7 +11,18 @@ Battery Monitor is an X-platform utility tool developed on Golang. It will notif
 
 ## Installation
 
-:::TO DO:::
+### Linux (64-bit)
+
+To install the daily build, please ensure the following dependencies installed:
+
+- git (>=2.17)
+- golang (>=1.11)
+
+Now run the following command:
+
+```shell script
+$ curl https://raw.githubusercontent.com/maateen/battery-monitor/dev/scripts/install.sh | bash -
+```
 
 ## Roadmap
 

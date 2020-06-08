@@ -1,0 +1,6 @@
+critical_battery_warning_at = 10
+low_battery_warning_at = 30
+first_custom_warning_at = 50
+second_custom_warning_at = 75
+third_custom_warning_at = 90
+notification_stability = 5
